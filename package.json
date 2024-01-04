@@ -1,0 +1,39 @@
+{ "name": "webaudiofont-surikov-midifilejs-backport-util",
+  "version": "0.0.1",
+  "description": "Tools for backporting patches from bundled JS files in `surikov/webaudiofont`.",
+  "keywords": [],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/webaudiofont-surikov-midifilejs-backport-util/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/webaudiofont-surikov-midifilejs-backport-util.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/webaudiofont-surikov-midifilejs-backport-util/issues"
+  },
+  "contributors": [],
+
+  "private": true, "license": "MIT",
+
+  "main": "package.json",
+  "scripts": { "test": "elp && nodemjs test/all.mjs" },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "dependencies": {
+    "get-stdin": "^6.0.0",
+    "p-fatal": "^0.1.5",
+    "usnam-pmb": "^0.2.5"
+  },
+  "devDependencies": {
+    "eslint-config-nodejs-pmb": "^0.3.5",
+    "eslint-plugin-json-light-pmb": "^1.0.7",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-pretty-pmb": "^1.0.5",
+    "nodemjs": "^0.1.14"
+  },
+
+
+  "engines": { "npm": ">=7.0.0", "node": ">=16.0.0" }
+}
